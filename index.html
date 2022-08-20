@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://fontawesome.com/v4.7.0/examples/" />
+    <!-- icon -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header secction -->
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="fas fa-shopping-basket"></i>Youfie
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#blog">Blog</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <!-- icon btn -->
+        <form action="#" class="search-form">
+            <input type="search" value="" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="asset/img_buah/cupcake-1.png" alt="" width="100px">
+                <div class="content">
+                    <h3>Cupcake</h3>
+                    <span class="price">$4.99</span>
+                    <span class="quantity">qty:1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="asset/img_buah/doughnut-2.png" alt="" width="100px">
+                <div class="content">
+                    <h3>Doughtnut</h3>
+                    <span class="price">$4000</span>
+                    <span class="quantity">qty:2</span>
+
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="asset/img_buah/hot-dog.png" alt="" width="100px">
+                <div class="content">
+                    <h3>HotDog</h3>
+                    <span class="price">$4.80</span>
+                    <span class="quantity">qty:3</span>
+
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="asset/img_buah/cupcake-2.png" alt="" width="100px">
+                <div class="content">
+                    <h3>HotDog</h3>
+                    <span class="price">$4.80</span>
+                    <span class="quantity">qty:3</span>
+
+                </div>
+            </div>
+            <div class="total">total:19.00</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" class="box" placeholder="Your Email">
+            <input type="password" class="box" placeholder="Your Passwprd">
+
+            <p>Forgot your password
+                <a href="#">click here</a>
+            </p>
+            <p>dont have an account
+                <a href="#">craete now</a>
+            </p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+    <!-- headet secction  end-->
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh <span>cake</span> and <span>products </span>for you</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae error veniam perferendis, ipsam delectus doloribus Aut explicabo quasi beatae neque dolorem.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+    <!-- feature secction -->
+    <section class="features" id="features">
+        <h1 class="heading">Our<span> Features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="asset/feature/go.png" alt>
+                <h3>Go Foods</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. adipisicing elit. Maxime</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="asset/feature/pana.png" alt="">
+                <h3>invoice</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="asset/feature/py.png" alt="">
+                <h3>Easy Payment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <!-- feature end -->
+    </section>
+    <!-- product secction start -->
+    <section class="products" id="products">
+        <h1 class="heading">our
+            <Span>products</Span>
+        </h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="asset/product/doughnut-1.png" alt="">
+                    <h3>Doughtnut</h3>
+                    <div class="price">
+                        $7.9/--8.9/
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" id="">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="asset/product/hamburguer.png" alt="">
+                    <h3>hamburguer</h3>
+                    <div class="price">
+                        $7.9/--8.9/
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" id="">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="asset/product/pancakes.png" alt="">
+                    <h3>pancakes</h3>
+                    <div class="price">
+                        $7.9/--8.9/
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" id="">add to cart</a>
+                </div>
+                <!-- <div class="box">
+                    <img src="asset/product/sandwich-1.png" alt="">
+                    <h3>sandwich</h3>
+                    <div class="price">
+                        $7.9/--8.9/
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" id="">add to cart</a>
+                </div> -->
+            </div>
+        </div>
+        <!-- bagian kedua  -->
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="asset/product/cookies.png" alt="">
+                    <h3>cookies</h3>
+                    <div class="price">
+                        $7.9/--8.9/
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" id="">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="asset/product/groceries.png" alt="">
+                    <h3>groceries</h3>
+                    <div class="price">
+                        $7.9/--8.9/
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" id="">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="asset/product/taco.png" alt="">
+                    <h3>pancakes</h3>
+                    <div class="price">
+                        $7.9/--8.9/
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" id="">add to cart</a>
+                </div>
+                <!-- <div class="swiper-slide box">
+                    <img src="asset/product/pizza-2.png" alt="">
+                    <h3>pizza</h3>
+                    <div class="price">
+                        $7.9/--8.9/
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn" id="">add to cart</a>
+                </div> -->
+            </div>
+        </div>
+
+
+    </section>
+    <!-- product secction end -->
+    <!-- category start -->
+    <section class="categories" id="categories">
+        <h1 class="heading">
+            products<span>category</span></h1>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="asset/category/blueberries.png" alt="">
+                <h3>blueberries</h3>
+                <p> $7.9/--8.9</p>
+                <a href="#" class="btn" id="">shop new</a>
+            </div>
+            <div class="box">
+                <img src="asset/category/frappe.png" alt="">
+                <h3>frappe</h3>
+                <p> $7.9/--8.9</p>
+                <a href="#" class="btn" id="">shop new</a>
+            </div>
+            <div class="box">
+                <img src="asset/category/ice-cream-10.png" alt="">
+                <h3>ice-cream</h3>
+                <p> $7.9/--8.9</p>
+                <a href="#" class="btn" id="">shop new</a>
+            </div>
+            <div class="box">
+                <img src="asset/category/jam-1.png" alt="">
+                <h3>jamhunt</h3>
+                <p> $7.9/--8.9</p>
+                <a href="#" class="btn" id="">shop new</a>
+            </div>
+        </div>
+    </section>
+    <!-- category end -->
+    <section class="review" id="review">
+        <h1 class="heading">customers <span>review</span></h1>
+        <div class="swiper review-slinder">
+            <div class="swiper-wrapper">
+                <div class="box">
+                    <img src="asset/person/40.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing eli
+                    </p>
+                    <h3>Dion</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="asset/person/41.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    </p>
+                    <h3>Dion</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="asset/person/42.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                    </p>
+                    <h3>Dion</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="asset/person/53.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our<span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="asset/blog/assortment-pieces-cake.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i>1st march</a>
+                    </div>
+
+                    <h3>assortment and cake</hh3>
+                        <p>Lorem ipsum dolor sit amet consecteturlibero rem quod totam pariatur </p>
+                        <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="asset/blog/glazed-chocolate-pink-donuts-marble-surface.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i>1st march</a>
+                    </div>
+                    <h3>assortment and cake</hh3>
+                        <p>Lorem ipsum dolor sit amet consectetur,libero rem quod totam</p>
+                        <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="asset/blog/hotdog-with-ketchup-mustard-lettuce-wooden-table.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i>1st march</a>
+                    </div>
+                    <h3>assortment and cake</hh3>
+                        <p>Lorem ipsum dolor sit amet consectetur,libero rem quod</p>
+                        <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog end -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Youfie<i class="fas fa-shopping-basket"></i> </h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nemo tenexplicab!</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+
+                </div>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone">+134-567-930</i></a>
+                <a href="#" class="links"> <i class="fas fa-phone">+111-111-333</i></a>
+                <a href="#" class="links"> <i class="fas fa-envelope">angelian@gmail.com</i></a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt">america,paris</i></a>
+            </div>
+            <div class="box">
+                <h3>quick link</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right">home</i></a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right">features</i></a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right">products</i></a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right">category</i></a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right">review</i></a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right">blog</i></a>
+            </div>
+            <div class="box">
+                <h3>newslatter</h3>
+                <p>subcription for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subcribe" class="btn">
+                <img src="asset/images (1).png" alt="" class="payment-img">
+                <img src="asset/download.png" alt="" class="payment-img">
+
+            </div>
+        </div>
+        <div class="credit">created<span>mis diana_sumenp_dev</span>! all rights reserved
+        </div>
+    </section>
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
